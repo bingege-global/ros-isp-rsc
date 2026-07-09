@@ -27,16 +27,25 @@ jobs:
             sed 's/^/add address=/;s/$/ list=CU/' > cu.rsc
           echo "CU: $(wc -l < cu.rsc) entries"
 
+      - name: Fetch CM (China Mobile) CIDRs
+        run: |
+          curl -sL https://gaoyifan.github.io/china-operator-ip/cmcc.txt | \
+            sed '/^$/d' | \
+            sed 's/^/add address=/;s/$/ list=CM/' > cm.rsc
+          echo "CM: $(wc -l < cm.rsc) entries"
+
       - name: Build RouterOS import file
         run: |
           cat > isp.rsc << 'HEREDOC'
-          /log info "Updating ISP address-lists (CT+CU)..."
+          /log info "Updating ISP address-lists (CT+CU+CM)..."
           /ip firewall address-list
           :do { remove [find list=CT] } on-error={}
           :do { remove [find list=CU] } on-error={}
+          :do { remove [find list=CM] } on-error={}
           HEREDOC
           cat ct.rsc >> isp.rsc
           cat cu.rsc >> isp.rsc
+          cat cm.rsc >> isp.rsc
           echo ':log info "ISP address-lists updated OK"' >> isp.rsc
 
       - name: Deploy to GitHub Pages
