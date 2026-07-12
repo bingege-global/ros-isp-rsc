@@ -299,7 +299,7 @@ add address=103.118.173.0/24 list=CM
 add address=103.120.88.0/22 list=CM
 add address=103.120.196.0/22 list=CM
 add address=103.130.160.0/23 list=CM
-add address=103.142.82.0/24 list=CM
+add address=103.142.82.0/23 list=CM
 add address=103.143.228.0/23 list=CM
 add address=103.152.29.0/24 list=CM
 add address=103.154.30.0/23 list=CM
@@ -888,13 +888,12 @@ add address=175.102.186.0/23 list=CM
 add address=175.102.188.0/23 list=CM
 add address=175.102.190.0/24 list=CM
 add address=180.150.176.0/20 list=CM
-add address=180.184.94.0/24 list=CM
+add address=180.184.94.0/23 list=CM
+add address=180.184.101.0/24 list=CM
 add address=180.184.128.0/20 list=CM
 add address=180.184.144.0/21 list=CM
 add address=180.184.152.0/22 list=CM
-add address=180.184.160.0/22 list=CM
-add address=180.184.166.0/23 list=CM
-add address=180.184.168.0/21 list=CM
+add address=180.184.160.0/20 list=CM
 add address=180.184.176.0/21 list=CM
 add address=180.184.184.0/22 list=CM
 add address=180.184.210.0/24 list=CM
