@@ -125,6 +125,7 @@ add address=42.247.24.0/22 list=CU
 add address=42.247.28.0/24 list=CU
 add address=42.247.31.0/24 list=CU
 add address=42.247.44.0/24 list=CU
+add address=43.193.65.0/24 list=CU
 add address=43.195.0.0/20 list=CU
 add address=43.195.16.0/22 list=CU
 add address=43.195.20.0/23 list=CU
@@ -133,7 +134,6 @@ add address=43.224.24.0/22 list=CU
 add address=43.224.52.0/23 list=CU
 add address=43.224.80.0/22 list=CU
 add address=43.224.240.0/24 list=CU
-add address=43.226.56.0/21 list=CU
 add address=43.226.116.0/22 list=CU
 add address=43.226.128.0/23 list=CU
 add address=43.226.164.0/22 list=CU
@@ -260,6 +260,10 @@ add address=49.114.16.0/23 list=CU
 add address=49.116.232.0/24 list=CU
 add address=49.117.128.0/24 list=CU
 add address=49.239.192.0/18 list=CU
+add address=52.82.164.0/22 list=CU
+add address=52.82.184.0/23 list=CU
+add address=52.82.188.0/23 list=CU
+add address=52.82.190.0/24 list=CU
 add address=54.222.46.0/23 list=CU
 add address=58.16.0.0/13 list=CU
 add address=58.42.243.0/24 list=CU
@@ -726,6 +730,7 @@ add address=101.76.224.0/19 list=CU
 add address=101.124.0.0/20 list=CU
 add address=101.124.19.0/24 list=CU
 add address=101.124.22.0/24 list=CU
+add address=101.124.24.0/21 list=CU
 add address=101.124.62.0/24 list=CU
 add address=101.125.0.0/22 list=CU
 add address=101.125.4.0/23 list=CU
@@ -823,7 +828,7 @@ add address=103.79.26.0/24 list=CU
 add address=103.79.200.0/22 list=CU
 add address=103.79.228.0/23 list=CU
 add address=103.81.4.0/22 list=CU
-add address=103.85.84.0/23 list=CU
+add address=103.85.84.0/22 list=CU
 add address=103.88.64.0/22 list=CU
 add address=103.90.92.0/22 list=CU
 add address=103.90.176.0/22 list=CU
@@ -861,6 +866,7 @@ add address=103.135.160.0/22 list=CU
 add address=103.135.164.0/23 list=CU
 add address=103.140.14.0/23 list=CU
 add address=103.141.10.0/23 list=CU
+add address=103.142.82.0/24 list=CU
 add address=103.142.234.0/23 list=CU
 add address=103.144.159.0/24 list=CU
 add address=103.146.126.0/23 list=CU
@@ -874,6 +880,7 @@ add address=103.161.220.0/23 list=CU
 add address=103.162.10.0/23 list=CU
 add address=103.163.180.0/24 list=CU
 add address=103.164.32.0/24 list=CU
+add address=103.183.124.0/24 list=CU
 add address=103.186.4.0/23 list=CU
 add address=103.189.92.0/23 list=CU
 add address=103.192.132.0/24 list=CU
@@ -1458,6 +1465,7 @@ add address=119.31.160.0/24 list=CU
 add address=119.31.192.0/19 list=CU
 add address=119.36.0.0/16 list=CU
 add address=119.38.0.0/21 list=CU
+add address=119.38.224.0/24 list=CU
 add address=119.39.0.0/16 list=CU
 add address=119.48.0.0/13 list=CU
 add address=119.60.11.0/24 list=CU
@@ -1655,7 +1663,6 @@ add address=123.4.0.0/14 list=CU
 add address=123.8.0.0/13 list=CU
 add address=123.49.192.0/23 list=CU
 add address=123.49.194.0/24 list=CU
-add address=123.49.245.0/24 list=CU
 add address=123.58.32.0/23 list=CU
 add address=123.58.34.0/24 list=CU
 add address=123.58.36.0/24 list=CU
@@ -2373,6 +2380,7 @@ add address=203.207.224.0/19 list=CU
 add address=203.212.0.0/21 list=CU
 add address=203.212.8.0/22 list=CU
 add address=205.198.19.0/24 list=CU
+add address=206.109.70.0/23 list=CU
 add address=207.254.180.0/24 list=CU
 add address=210.2.1.0/24 list=CU
 add address=210.2.4.0/24 list=CU
@@ -2532,6 +2540,8 @@ add address=210.76.0.0/18 list=CU
 add address=210.77.32.0/19 list=CU
 add address=210.77.144.0/20 list=CU
 add address=210.77.180.0/23 list=CU
+add address=210.77.184.0/24 list=CU
+add address=210.77.190.0/24 list=CU
 add address=210.77.192.0/18 list=CU
 add address=210.79.224.0/19 list=CU
 add address=210.82.0.0/15 list=CU
@@ -2782,6 +2792,7 @@ add address=218.67.128.0/17 list=CU
 add address=218.68.0.0/15 list=CU
 add address=218.70.11.0/24 list=CU
 add address=218.70.107.0/24 list=CU
+add address=218.70.110.0/24 list=CU
 add address=218.75.128.0/21 list=CU
 add address=218.75.136.0/23 list=CU
 add address=218.75.139.0/24 list=CU
@@ -2935,7 +2946,6 @@ add address=218.94.104.0/24 list=CU
 add address=218.94.107.0/24 list=CU
 add address=218.94.111.0/24 list=CU
 add address=218.94.129.0/24 list=CU
-add address=218.94.142.0/24 list=CU
 add address=218.94.144.0/24 list=CU
 add address=218.94.147.0/24 list=CU
 add address=218.94.151.0/24 list=CU
@@ -3139,11 +3149,7 @@ add address=219.232.123.0/24 list=CU
 add address=219.232.124.0/23 list=CU
 add address=219.232.126.0/24 list=CU
 add address=219.232.144.0/24 list=CU
-add address=219.232.160.0/20 list=CU
-add address=219.232.176.0/21 list=CU
-add address=219.232.184.0/23 list=CU
-add address=219.232.187.0/24 list=CU
-add address=219.232.188.0/22 list=CU
+add address=219.232.160.0/19 list=CU
 add address=219.234.96.0/20 list=CU
 add address=219.234.128.0/17 list=CU
 add address=219.235.32.0/19 list=CU
@@ -3372,13 +3378,6 @@ add address=222.17.168.0/24 list=CU
 add address=222.17.176.0/21 list=CU
 add address=222.17.192.0/18 list=CU
 add address=222.28.208.0/24 list=CU
-add address=222.45.80.0/20 list=CU
-add address=222.45.112.0/20 list=CU
-add address=222.45.136.0/21 list=CU
-add address=222.45.152.0/21 list=CU
-add address=222.45.176.0/20 list=CU
-add address=222.45.208.0/20 list=CU
-add address=222.45.224.0/20 list=CU
 add address=222.75.67.0/24 list=CU
 add address=222.75.88.0/24 list=CU
 add address=222.75.179.0/24 list=CU
@@ -3408,6 +3407,18 @@ add address=222.92.181.0/24 list=CU
 add address=222.92.200.0/24 list=CU
 add address=222.92.217.0/24 list=CU
 add address=222.125.0.0/16 list=CU
+add address=222.126.135.0/24 list=CU
+add address=222.126.136.0/23 list=CU
+add address=222.126.145.0/24 list=CU
+add address=222.126.190.0/23 list=CU
+add address=222.126.198.0/23 list=CU
+add address=222.126.204.0/22 list=CU
+add address=222.126.210.0/23 list=CU
+add address=222.126.218.0/23 list=CU
+add address=222.126.220.0/22 list=CU
+add address=222.126.224.0/22 list=CU
+add address=222.126.230.0/23 list=CU
+add address=222.126.232.0/23 list=CU
 add address=222.126.245.0/24 list=CU
 add address=222.128.0.0/12 list=CU
 add address=222.160.0.0/14 list=CU
@@ -3418,6 +3429,8 @@ add address=222.175.158.0/24 list=CU
 add address=222.177.124.0/24 list=CU
 add address=222.178.193.0/24 list=CU
 add address=222.178.211.0/24 list=CU
+add address=222.178.228.0/24 list=CU
+add address=222.180.59.0/24 list=CU
 add address=222.184.49.0/24 list=CU
 add address=222.184.228.0/24 list=CU
 add address=222.184.234.0/24 list=CU
